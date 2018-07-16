@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>event planner</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<script src="validate.js"></script>
+	<div class="logo">
+		<img src="eventos1.jpg" height="150px" width="100%">
+	</div>
+	
+	<div class="nav">
+            <ul><b>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li><a href="gallery.html">Gallery</a></li>
+             <li><a href="contacts.html">Contact Us</a></li></b>
+        </ul> 
+	</div>
+	<center>
+<form>
+<h4>Contact form</h4>
+<fieldset>
+<span id="iobox"> Name:</span>
+			<input type="text" id="fname">
+			<p id="pfname"></p>
+			<br><br>
+<span id="iobox">Personal Number:</span>
+			<input type="text"  id="phNo">
+			<p id="pphNo"></p>
+			<br><br>
+<span id="iobox">Email ID:</span>
+			<input type="text" id="eid">
+			<p id="peid"></p>
+			<br><br>
+<span id="iobox">Message:</span>
+			<textarea rows="4" cols="40" id="message"></textarea>
+			<p id="pmessage"></p>
+			<br><br>
+			
+</fieldset>
+<br>
+<input type="button" name="submit" value="SUBMIT" id="sbutton" onclick="validate()">
+</form>
+</center>
+</body>
+</html>
